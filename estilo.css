@@ -5,9 +5,11 @@
 
 body {
     
-    font-family:'Sedgwick Ave Display', cursive;
+    
     margin: 0;
     padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    
     
 }
 
@@ -20,8 +22,10 @@ body {
 }
 h1,
 h2
+p
+a
  {
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Libre Baskerville', serif;
     font-weight: normal;
     
 }
@@ -97,31 +101,23 @@ h2
     font-weight: bold;
 }
 
-.about {
-    background-color: #043c54;
-    padding: var(--large-default-padding);
-    color: white;
-    background-image: url(../imagens/bg_detalhe.png);
-    background-repeat: no-repeat;
-    background-position: right bottom;
+.about{
+    background-color:#e3e3db; 
+    font-size: 29px;
+    color: #252525;
+    border-radius: 10px;
+    justify-content:space-between;
+    display:flex;
+
 }
 
-.cr7{
-  align-items: center;
-}
-.about h2 {
-    text-transform: uppercase;
-    font-size: 3em;
-    font-weight: normal;
-}
 
-.about p {
-    line-height: 1.5;
-    width: 70%;
-    
-}
+
 article a{
     text-decoration: none;
+}
+article a:hover{
+    color:#e3e3db
 }
 
 .rodape  {
@@ -133,9 +129,7 @@ article a{
     text-align: center;
     
 }
-.rodape a {
-    
-}
+
 .rodape p{
     font-size: 20px;
 }
